@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var password = String()
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .blue
     }
     @IBAction func pressClick(_ sender: UIButton) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController

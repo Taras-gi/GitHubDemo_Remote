@@ -14,6 +14,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         label.text = passingText
+        view.backgroundColor = .red
  
         // Do any additional setup after loading the view.
     }

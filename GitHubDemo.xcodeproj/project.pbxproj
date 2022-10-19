@@ -14,8 +14,6 @@
 		E87F9B0028FFEEA3000C80D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87F9AFF28FFEEA3000C80D5 /* Assets.xcassets */; };
 		E87F9B0328FFEEA3000C80D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87F9B0128FFEEA3000C80D5 /* LaunchScreen.storyboard */; };
 		E87F9B0B28FFFDFD000C80D5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F9B0A28FFFDFD000C80D5 /* SecondViewController.swift */; };
-		E87F9B0D29000CED000C80D5 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F9B0C29000CED000C80D5 /* DataSource.swift */; };
-		E87F9B0F29000DDB000C80D5 /* Persistent containerfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F9B0E29000DDB000C80D5 /* Persistent containerfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +26,6 @@
 		E87F9B0228FFEEA3000C80D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87F9B0428FFEEA3000C80D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E87F9B0A28FFFDFD000C80D5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		E87F9B0C29000CED000C80D5 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
-		E87F9B0E29000DDB000C80D5 /* Persistent containerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistent containerfile.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +62,6 @@
 				E87F9AF828FFEEA1000C80D5 /* SceneDelegate.swift */,
 				E87F9AFA28FFEEA1000C80D5 /* ViewController.swift */,
 				E87F9B0A28FFFDFD000C80D5 /* SecondViewController.swift */,
-				E87F9B0C29000CED000C80D5 /* DataSource.swift */,
-				E87F9B0E29000DDB000C80D5 /* Persistent containerfile.swift */,
 				E87F9AFC28FFEEA1000C80D5 /* Main.storyboard */,
 				E87F9AFF28FFEEA3000C80D5 /* Assets.xcassets */,
 				E87F9B0128FFEEA3000C80D5 /* LaunchScreen.storyboard */,
@@ -148,10 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E87F9B0B28FFFDFD000C80D5 /* SecondViewController.swift in Sources */,
-				E87F9B0F29000DDB000C80D5 /* Persistent containerfile.swift in Sources */,
 				E87F9AFB28FFEEA1000C80D5 /* ViewController.swift in Sources */,
 				E87F9AF728FFEEA1000C80D5 /* AppDelegate.swift in Sources */,
-				E87F9B0D29000CED000C80D5 /* DataSource.swift in Sources */,
 				E87F9AF928FFEEA1000C80D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

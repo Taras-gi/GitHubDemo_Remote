@@ -8,24 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var array:[String]! = ["H","E","L","L","O","W","O","R","L","D"]
+    var password = String()
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(array(para: [5,0,9,0,3,7,2,0]))
     }
-    func array(para:[Int]) -> Bool {
-        var newArray:[Int] = []
-        for item in 0..<para.count {
-            if para[item] == 8 {
-                newArray.append(8)
-            }
+    @IBAction func pressClick(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        guard let count = array else { return }
+        for _ in 1...count.count {
+            password.append(count.randomElement() ?? "K" )
         }
-        if newArray.count > 1 {
-            return true
-        }
-        return false
+            vc.passingText = password
+            navigationController?.pushViewController(vc, animated: true)
+      
     }
 }
+
 
 
 
